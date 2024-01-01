@@ -11,4 +11,5 @@ int main() {
 
   const int BIRTH_YEAR = 1989;
 
+  return 0;
 }

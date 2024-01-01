@@ -8,6 +8,14 @@ To run program in terminal, run the following commands:
 
 gcc is the compiler
 
+TO OBSERVE THE RETURN VALUE (exit status) OF A PROGRAM:
+
+echo $?
+
+echo is a linux/macOS command which prints text or variable values
+$ is a special character in Unix-like shells to indicate variable substitution. It will be followed by the name of a variable and the shell replaces it with the value of the variable.
+? is a special character in Unix-like shells which represents the exit status of the last executed command. 
+
 */
 
 int main() {
