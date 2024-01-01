@@ -23,5 +23,14 @@ int main() {
   printf("%d\n", 1 == 2);
   printf("%d\n", 2 == 2);
 
+  // Can you convert the data stored at a certain address into whatever format specifier you'd like?
+  char seriesOfBits = 'C';
+  printf("%d\n", seriesOfBits);
+  /*
+    No, no you can't. Characters do have ASCII values which will be automatically applied when you
+    implicitly convert them (integral promotion) but you cannot convert a character into a string.
+    
+  */ 
+
   return 0;
 }
