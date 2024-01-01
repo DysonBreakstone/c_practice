@@ -16,11 +16,14 @@ echo is a linux/macOS command which prints text or variable values
 $ is a special character in Unix-like shells to indicate variable substitution. It will be followed by the name of a variable and the shell replaces it with the value of the variable.
 ? is a special character in Unix-like shells which represents the exit status of the last executed command. 
 
+
+UNEXPECTED '%' IN TERMINAL OUTPUT
+  This is a zsh thing, it will output a '%' to show that you have not included a line break at the end of your printf().
 */
 
 int main() {
-  printf("Goodbye World!\n");
-  printf("This is a new line and I love it\n\n");
+  printf("Hello World!\n");
+  printf("This is a new line and it's great.\n\n");
   int myNum = 15;
   printf("My favorite number is %i\n\n", myNum);
   char firstInitial = 'D';
