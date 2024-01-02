@@ -36,6 +36,7 @@ int main() {
   // two-dimensional arrays
   int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };
   printf("The first element of the second array in this matrix is: %d\n", matrix[1][0]);
+  
   // reassignment
   matrix[1][0] = 8;
   printf("After reassignment, the first element of the second array in this matrix is: %d\n", matrix[1][0]);
